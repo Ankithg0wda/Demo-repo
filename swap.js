@@ -2,10 +2,10 @@
 
 var a=10,b=20;
 
-console.log('before swaping ',a, b)
+console.log('Before swaping ',a, b)
 
-var temp=a;
-a=b;
-b= temp;
+var temp=a; // temp=10
+a=b;// a= 20
+b= temp;// b=10
 
 console.log('After swaping ',a , b)
