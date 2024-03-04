@@ -2,16 +2,17 @@ function painldrome(num)
 {
     var temp= num;
     var rev=0;
+    var rem;
 
-    while(num!=0)
+    while(num>0)
     {
-        rev=rev*10+num%10;  1
-        temp=num/10;
+        rem = num%10;
+        num = parseInt(num/10)  
+        rev = rev*10+rem;
     }
-     console.log(rev)
+     //console.log(rev)
 
-
-    if(temp==num)
+    if(rev==temp)
     {
         console.log('it is a palindrome');
     }

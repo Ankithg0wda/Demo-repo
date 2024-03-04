@@ -8,6 +8,10 @@ console.log("EVEN POSITION")
            console.log(x[i]) 
         }
 
+        else{
+            console.log(x[i])
+        }
+
     } 
 
     console.log("ODD POSITION")
